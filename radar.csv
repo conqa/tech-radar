@@ -1,0 +1,45 @@
+name,ring,quadrant,isNew,description
+Launch Darkly,adopt,tools,FALSE,
+New Relic,adopt,tools,FALSE,todo describe how we use
+date-fns,adopt,tools,FALSE,
+mango queries/cloudant query,adopt,tools,FALSE,if there's no reduce function you probably don't need a couch view
+Testing Library,trial,tools,FALSE,prefer over Enzyme
+Calibre,trial,tools,TRUE,
+Percy,trial,tools,TRUE,
+SWR,assess,tools,TRUE,"<a href=""https://swr.vercel.app/"">SWR</a> provides a lightweight way of fetching data in React apps compared to other solutions like React Query."
+Hosted Login UI,assess,tools,TRUE,"Bundling login into our apps via @conqa/login increases page size and rolling out updates to the login experience requires multiple changes across our applications. Solutions like <a href=""https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-app-integration.html"">Cognito Hosted UI</a> don't have these issues and it could improve our login security and user experience."
+Ramda,hold,tools,FALSE,"A lot of use of Ramda at CONQA has lead to <a href=""https://twitter.com/dabit3/status/1156932035501547520?s=21"">difficult-to-understand code</a> and library updates often remove features leading to multiple versions of Ramda being bundled in apps."
+moment.js,hold,tools,FALSE,"Moment is <a href=""https://momentjs.com/docs/#/-project-status/"">now a legacy project in maintenance mode</a>. Prefer date-fns."
+Rollup,hold,tools,FALSE,
+Database per Service,adopt,techniques,FALSE,
+Team Topologies,adopt,techniques,FALSE,
+Blameless Post Mortems,adopt,techniques,FALSE,
+Choose Boring Technology,adopt,techniques,FALSE,
+Innovation Tokens,trial,techniques,TRUE,
+Backends for Frontends,trial,techniques,FALSE,
+Mob Programming,trial,techniques,FALSE,
+Separate UI and server state,assess,techniques,TRUE,
+Accelerate Metrics,assess,techniques,TRUE,"UI state is not the same as server state and these things should be separate as discussed in <a href=""https://kentcdodds.com/chats-with-kent-podcast/seasons/03/episodes/tanner-linsley-separates-ui-state-and-server-state"">this podcast</a>."
+Hexagonal Architecture,assess,techniques,,
+12 Factor Applications,assess,techniques,,"<a href=""https://12factor.net/"">12 Factor Apps</a>"
+Domain-Driven Design,assess,techniques,,
+Integration Database,hold,techniques,,"Prefer <a href=""https://microservices.io/patterns/data/database-per-service.html"">Database per Service</a>."
+YOLO AWS config,hold,techniques,,
+Using production as development,hold,techniques,,
+DynamoDB,adopt,platforms,,
+AWS Lambda,adopt,platforms,,
+AWS Lambda on ARM,trial,platforms,,
+Kinesis,trial,platforms,,
+CouchDB,hold,platforms,FALSE,"prefer AWS managed offereings, e.g. DynamoDB "
+Firebase,hold,platforms,FALSE,
+Elastic Beanstalk,hold,platforms,,
+TypeScript,adopt,languages & frameworks,,
+Serverless Framework,adopt,languages & frameworks,,
+Redux,trial,languages & frameworks,,if possible use Redux Toolkkitl or try to just use React;
+Tailwind CSS,assess,languages & frameworks,,
+Jotai and Zustand,assess,languages & frameworks,,
+Cerebral,hold,languages & frameworks,,"EOL, newer versions of React provide features like hooks, for older versions of React Redux might be appropriate"
+Redux Saga,hold,languages & frameworks,,Does not work well with TypeScript
+Material UI,hold,languages & frameworks,,
+Blueprint CSS,hold,languages & frameworks,,
+Bootstrap,hold,languages & frameworks,,
