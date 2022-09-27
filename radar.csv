@@ -37,7 +37,7 @@ TypeScript,adopt,languages & frameworks,,
 Serverless Framework,adopt,languages & frameworks,,
 Redux,trial,languages & frameworks,,if possible use Redux Toolkkitl or try to just use React;
 Tailwind CSS,assess,languages & frameworks,,
-Jotai and Zustand,assess,languages & frameworks,,
+Jotai and Zustand,assess,languages & frameworks,TRUE,
 Cerebral,hold,languages & frameworks,,"EOL, newer versions of React provide features like hooks, for older versions of React Redux might be appropriate"
 Redux Saga,hold,languages & frameworks,,Does not work well with TypeScript
 Material UI,hold,languages & frameworks,,
