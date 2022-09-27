@@ -24,7 +24,7 @@ Hexagonal Architecture,assess,techniques,,
 12 Factor Applications,assess,techniques,,"<a href=""https://12factor.net/"">12 Factor Apps</a>"
 Domain-Driven Design,assess,techniques,,
 Integration Database,hold,techniques,,"Prefer <a href=""https://microservices.io/patterns/data/database-per-service.html"">Database per Service</a>."
-YOLO AWS config,hold,techniques,,
+ClickOps,hold,techniques,FALSE,"Prefer Infrastructure as Code."
 Using production as development,hold,techniques,,
 DynamoDB,adopt,platforms,,
 AWS Lambda,adopt,platforms,,
