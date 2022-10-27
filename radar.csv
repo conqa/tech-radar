@@ -22,6 +22,20 @@ Rollup,hold,tools,FALSE,
 Enzyme,hold,tools,FALSE,
 Raygun,hold,tools,FALSE,Overlaps with New Relic
 typescript-json-schema,hold,tools,FALSE,
+Database per Service,adopt,techniques,FALSE,
+Team Topologies,adopt,techniques,FALSE,
 Blameless Post Mortems,adopt,techniques,FALSE,
+Choose Boring Technology,adopt,techniques,FALSE,
+Backends for Frontends,adopt,techniques,FALSE,
+Mobbing,adopt,techniques,FALSE,
+Render as you Fetch,trial,techniques,TRUE,https://sergiodxa.com/articles/render-as-you-fetch
+SPACE Metrics,trial,techniques,TRUE,"UI state is not the same as server state and these things should be separate as discussed in <a href=""https://kentcdodds.com/chats-with-kent-podcast/seasons/03/episodes/tanner-linsley-separates-ui-state-and-server-state"">this podcast</a>."
+Separate UI and server state,assess,techniques,TRUE,
+Hexagonal Architecture,assess,techniques,FALSE,
+12 Factor Applications,assess,techniques,FALSE,"<a href=""https://12factor.net/"">12 Factor Apps</a>"
+Domain-Driven Design,assess,techniques,FALSE,
+Integration Database,hold,techniques,FALSE,"Prefer <a href=""https://microservices.io/patterns/data/database-per-service.html"">Database per Service</a>."
+ClickOps,hold,techniques,FALSE,"Prefer <a href=""https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html"">Infrastructure as Code</a>."
+Using production as development,hold,techniques,FALSE,"privacy, etc."
 ECS,adopt,platforms,TRUE,
 Redux,hold,languages & frameworks,FALSE,if possible use Redux Toolkit or try to just use React;
