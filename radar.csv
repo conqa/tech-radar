@@ -49,17 +49,3 @@ CouchDB,hold,platforms,FALSE,"prefer AWS managed offereings, e.g. DynamoDB "
 Firebase,hold,platforms,FALSE,
 Elastic Beanstalk,hold,platforms,FALSE,
 TypeScript,adopt,languages & frameworks,FALSE,
-Serverless Framework,adopt,languages & frameworks,FALSE,
-Tailwind CSS,trail,languages & frameworks,TRUE,
-Lightweight React state management,assess,languages & frameworks,TRUE,e.g. Jotai and Zustand
-Headless UI libraries,assess,languages & frameworks,TRUE,
-Capacitor,assess,languages & frameworks,TRUE,
-Cerebral,hold,languages & frameworks,FALSE,"EOL, newer versions of React provide features like hooks, for older versions of React Redux might be appropriate"
-Redux Saga,hold,languages & frameworks,FALSE,Does not work well with TypeScript
-Material UI,hold,languages & frameworks,FALSE,
-Blueprint CSS,hold,languages & frameworks,FALSE,
-Bootstrap,hold,languages & frameworks,FALSE,
-React Native,hold,languages & frameworks,FALSE,
-CSS modules,hold,languages & frameworks,FALSE,
-CSS in JS,hold,languages & frameworks,FALSE,
-Redux,hold,languages & frameworks,FALSE,if possible use Redux Toolkit or try to just use React
