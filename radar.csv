@@ -49,3 +49,8 @@ CouchDB,hold,platforms,FALSE,"prefer AWS managed offereings, e.g. DynamoDB "
 Firebase,hold,platforms,FALSE,
 Elastic Beanstalk,hold,platforms,FALSE,
 TypeScript,adopt,languages & frameworks,FALSE,
+Serverless Framework,adopt,languages & frameworks,FALSE,
+Tailwind CSS,trail,languages & frameworks,TRUE,
+Lightweight React state management,assess,languages & frameworks,TRUE,e.g. Jotai and Zustand
+Headless UI libraries,assess,languages & frameworks,TRUE,
+Capacitor,assess,languages & frameworks,TRUE,
