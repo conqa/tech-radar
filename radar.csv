@@ -1,5 +1,27 @@
 name,ring,quadrant,isNew,description
 Launch Darkly,adopt,tools,FALSE,"Launch Darkly provides excellent support for per-user <a href=https://martinfowler.com/articles/feature-toggles.html>Feature Flags</a> which we can use to incrementally test and release improvements to our software."""
+New Relic,adopt,tools,FALSE,New Relic is our prefered observability and monitoring tool because of the breadth of features it offers and its support for our software stack.
+date-fns,adopt,tools,FALSE,"date-fns should be used in preference to older tools like moment.js. Use date-fns when you can't use the <a href=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl"">ECMAScript Internationalization API</a>."""
+mango queries/cloudant query,adopt,tools,FALSE,if there's no reduce function you probably don't need a couch view.
+Testing Library,adopt,tools,FALSE,Testing Library should be used in preference to older tools like Enzyme.
+Calibre,adopt,tools,TRUE,Calibre can be used to keep track of key web performance metrics over time. Products can set goals around metrics like LCP and use Calibre to ensure these are heading in the right direction.
+Percy,adopt,tools,FALSE,Visual regression tests can save on manual regression testing efforts and catch easy to miss bugs introduced by code changes.
+Cypress,adopt,tools,FALSE,
+zod,adopt,tools,TRUE,
+Middy,adopt,tools,FALSE,
+SWR,trial,tools,TRUE,"<a href=""https://swr.vercel.app/"">SWR</a> provides a lightweight way of fetching data in React apps compared to other solutions like React Query."
+Hosted Login UI,assess,tools,TRUE,"Bundling login into our apps via @conqa/login increases page size and rolling out updates to the login experience requires multiple changes across our applications. Solutions like <a href=""https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-app-integration.html"">Cognito Hosted UI</a> don't have these issues and it could improve our login security and user experience."
+serverless-offline,assess,tools,TRUE,
+serverless-plugin-typescript,assess,tools,TRUE,
+Browserstack,assess,tools,TRUE,
+vite,assess,tools,TRUE,
+Parcel,assess,tools,FALSE,
+Ramda,hold,tools,FALSE,"A lot of use of Ramda at CONQA has lead to <a href=""https://twitter.com/dabit3/status/1156932035501547520?s=21"">difficult-to-understand code</a> and library updates often remove features leading to multiple versions of Ramda being bundled in apps."
+moment.js,hold,tools,FALSE,"Moment is <a href=""https://momentjs.com/docs/#/-project-status/"">now a legacy project in maintenance mode</a>. Prefer date-fns."
+Rollup,hold,tools,FALSE,
+Enzyme,hold,tools,FALSE,
+Raygun,hold,tools,FALSE,Overlaps with New Relic
+typescript-json-schema,hold,tools,FALSE,
 Blameless Post Mortems,adopt,techniques,FALSE,
 ECS,adopt,platforms,TRUE,
 Redux,hold,languages & frameworks,FALSE,if possible use Redux Toolkit or try to just use React;
