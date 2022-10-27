@@ -38,4 +38,28 @@ Integration Database,hold,techniques,FALSE,"Prefer <a href=""https://microservic
 ClickOps,hold,techniques,FALSE,"Prefer <a href=""https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/infrastructure-as-code.html"">Infrastructure as Code</a>."
 Using production as development,hold,techniques,FALSE,"privacy, etc."
 ECS,adopt,platforms,TRUE,
-Redux,hold,languages & frameworks,FALSE,if possible use Redux Toolkit or try to just use React;
+CircleCI,adopt,platforms,FALSE,
+DynamoDB,adopt,platforms,FALSE,
+AWS Lambda,adopt,platforms,FALSE,
+Kinesis,trial,platforms,FALSE,
+AWS Lambda on ARM,assess,platforms,FALSE,
+S3 + Athena,assess,platforms,TRUE,Reporting
+Appflow,assess,platforms,TRUE,
+CouchDB,hold,platforms,FALSE,"prefer AWS managed offereings, e.g. DynamoDB "
+Firebase,hold,platforms,FALSE,
+Elastic Beanstalk,hold,platforms,FALSE,
+TypeScript,adopt,languages & frameworks,FALSE,
+Serverless Framework,adopt,languages & frameworks,FALSE,
+Tailwind CSS,trail,languages & frameworks,TRUE,
+Lightweight React state management,assess,languages & frameworks,TRUE,e.g. Jotai and Zustand
+Headless UI libraries,assess,languages & frameworks,TRUE,
+Capacitor,assess,languages & frameworks,TRUE,
+Cerebral,hold,languages & frameworks,FALSE,"EOL, newer versions of React provide features like hooks, for older versions of React Redux might be appropriate"
+Redux Saga,hold,languages & frameworks,FALSE,Does not work well with TypeScript
+Material UI,hold,languages & frameworks,FALSE,
+Blueprint CSS,hold,languages & frameworks,FALSE,
+Bootstrap,hold,languages & frameworks,FALSE,
+React Native,hold,languages & frameworks,FALSE,
+CSS modules,hold,languages & frameworks,FALSE,
+CSS in JS,hold,languages & frameworks,FALSE,
+Redux,hold,languages & frameworks,FALSE,if possible use Redux Toolkit or try to just use React
