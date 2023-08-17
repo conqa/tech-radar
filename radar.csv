@@ -9,7 +9,7 @@ Percy,adopt,tools,FALSE,Visual regression tests can save on manual regression te
 Cypress,adopt,tools,FALSE,
 zod,adopt,tools,TRUE,
 Middy,adopt,tools,FALSE,
-SWR,trial,tools,TRUE,"<a href=""https://swr.vercel.app/"">SWR</a> provides a lightweight way of fetching data in React apps compared to other solutions like React Query."
+React Query,adopt,tools,TRUE,
 Hosted Login UI,assess,tools,TRUE,"Bundling login into our apps via @conqa/login increases page size and rolling out updates to the login experience requires multiple changes across our applications. Solutions like <a href=""https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-app-integration.html"">Cognito Hosted UI</a> don't have these issues and it could improve our login security and user experience."
 serverless-offline,assess,tools,TRUE,
 serverless-plugin-typescript,assess,tools,TRUE,
