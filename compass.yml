@@ -1,0 +1,14 @@
+name: tech-radar
+id: ari:cloud:compass:aea9e2a7-66b9-451b-b0a4-23f6eb46903a:component/9df5bae4-d940-4054-a818-375c8e5b20f9/bd372fa1-6762-45aa-b719-d0475ca6284e
+description: CONQA's Technology Radar
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links: []
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+  - synced-with-jsm
+customFields: null
